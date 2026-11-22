@@ -1,7 +1,7 @@
-package com.qingmei2.rximagepicker_extension_wechat.ui.adapter;
+﻿package com.qingmei2.rximagepicker_extension_wechat.ui.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.qingmei2.rximagepicker_extension.model.SelectedItemCollection;
 import com.qingmei2.rximagepicker_extension.ui.adapter.AlbumMediaAdapter;
@@ -18,3 +18,4 @@ public class WechatAlbumMediaAdapter extends AlbumMediaAdapter {
         return R.layout.wechat_media_grid_item;
     }
 }
+

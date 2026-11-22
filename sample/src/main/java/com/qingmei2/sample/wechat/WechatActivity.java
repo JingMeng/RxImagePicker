@@ -1,12 +1,12 @@
-package com.qingmei2.sample.wechat;
+﻿package com.qingmei2.sample.wechat;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -107,3 +107,4 @@ public class WechatActivity extends AppCompatActivity {
         Toast.makeText(this, "Failed: " + error.toString(), Toast.LENGTH_SHORT).show();
     }
 }
+

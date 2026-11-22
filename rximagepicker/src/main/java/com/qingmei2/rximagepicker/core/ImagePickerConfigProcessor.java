@@ -3,7 +3,7 @@ package com.qingmei2.rximagepicker.core;
 
 import android.content.Context;
 import android.net.Uri;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 
 import com.qingmei2.rximagepicker.di.scheduler.IRxImagePickerSchedulers;
 import com.qingmei2.rximagepicker.funtions.ObserverAsConverter;

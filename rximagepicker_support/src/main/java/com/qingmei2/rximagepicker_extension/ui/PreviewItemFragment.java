@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +19,8 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -97,3 +97,4 @@ public class PreviewItemFragment extends Fragment {
         }
     }
 }
+

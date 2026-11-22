@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,8 +16,8 @@
 package com.qingmei2.rximagepicker_extension.entity;
 
 import android.content.Context;
-import android.support.annotation.IntDef;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.IntDef;
+import androidx.fragment.app.FragmentActivity;
 import android.widget.Toast;
 
 import com.qingmei2.rximagepicker_extension.ui.widget.IncapableDialog;
@@ -81,3 +81,4 @@ public class IncapableCause {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,7 @@ package com.qingmei2.rximagepicker_extension.ui;
 
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 
 import com.qingmei2.rximagepicker_extension.entity.Album;
@@ -85,3 +85,4 @@ public class AlbumPreviewActivity extends BasePreviewActivity implements
 
     }
 }
+

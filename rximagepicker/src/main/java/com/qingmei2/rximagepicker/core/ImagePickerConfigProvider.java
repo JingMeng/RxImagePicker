@@ -1,7 +1,7 @@
 package com.qingmei2.rximagepicker.core;
 
 import android.app.Activity;
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 
 import com.qingmei2.rximagepicker.entity.observeras.ObserverAs;
 import com.qingmei2.rximagepicker.entity.sources.SourcesFrom;
@@ -68,3 +68,4 @@ public final class ImagePickerConfigProvider {
         return activityClass;
     }
 }
+

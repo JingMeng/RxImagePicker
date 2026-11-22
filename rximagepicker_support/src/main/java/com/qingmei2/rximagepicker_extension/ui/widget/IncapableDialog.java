@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,9 +18,9 @@ package com.qingmei2.rximagepicker_extension.ui.widget;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.text.TextUtils;
 
 import com.qingmei2.rximagepicker_extension.R;
@@ -63,3 +63,4 @@ public class IncapableDialog extends DialogFragment {
         return builder.create();
     }
 }
+

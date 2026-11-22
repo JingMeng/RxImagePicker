@@ -1,8 +1,8 @@
 package com.qingmei2.rximagepicker.ui;
 
 import android.net.Uri;
-import android.support.annotation.IdRes;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.IdRes;
+import androidx.fragment.app.FragmentActivity;
 
 import io.reactivex.Observable;
 
@@ -12,13 +12,13 @@ import io.reactivex.Observable;
  * </p>
  * <p>
  * For the developer, it may be an {@link android.app.Activity}. Of course, in some cases, it may
- * also be partially displayed in the {@link android.app.Activity} as a {@link android.support.v4.app.Fragment}.</p>
+ * also be partially displayed in the {@link android.app.Activity} as a {@link androidx.fragment.app.Fragment}.</p>
  * <p>
  * If the ImagePicker's page was displayed as a {@link android.app.Activity}, The controller
  * {@link com.qingmei2.rximagepicker.core.ActivityPickerProjector} will manage the display logic of
  * {@link android.app.Activity}.</p>
  * <p>
- * If the ImagePicker's page was displayed as a {@link android.support.v4.app.Fragment}, it's holder
+ * If the ImagePicker's page was displayed as a {@link androidx.fragment.app.Fragment}, it's holder
  * activity will place it in the corresponding {@link android.view.ViewGroup} container and display it.
  * <p/>
  *
@@ -35,3 +35,4 @@ public interface ICustomPickerView {
     Observable<Uri> pickImage();
 
 }
+

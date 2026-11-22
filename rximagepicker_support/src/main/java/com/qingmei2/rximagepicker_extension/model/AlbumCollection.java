@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2014 nohana, Inc.
  * Copyright 2017 Zhihu Inc.
  *
@@ -19,8 +19,8 @@ package com.qingmei2.rximagepicker_extension.model;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.LoaderManager;
+import androidx.fragment.app.FragmentActivity;
+import androidx.loader.app.LoaderManager;
 import android.support.v4.content.Loader;
 
 import com.qingmei2.rximagepicker_extension.loader.AlbumLoader;
@@ -105,3 +105,4 @@ public class AlbumCollection implements LoaderManager.LoaderCallbacks<Cursor> {
         void onAlbumReset();
     }
 }
+

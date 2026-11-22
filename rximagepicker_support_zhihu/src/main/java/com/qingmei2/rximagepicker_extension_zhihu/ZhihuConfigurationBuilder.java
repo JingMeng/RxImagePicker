@@ -1,10 +1,10 @@
-package com.qingmei2.rximagepicker_extension_zhihu;
+﻿package com.qingmei2.rximagepicker_extension_zhihu;
 
 import android.app.Activity;
 import android.os.Build;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import android.support.annotation.StyleRes;
 
 import com.qingmei2.rximagepicker_extension.MimeType;
@@ -177,7 +177,7 @@ public final class ZhihuConfigurationBuilder {
 
     /**
      * Capture strategy provided for the location to save photos including internal and external
-     * storage and also a authority for {@link android.support.v4.content.FileProvider}.
+     * storage and also a authority for {@link androidx.core.content.FileProvider}.
      *
      * @param captureStrategy {@link CaptureStrategy}, needed only when capturing is enabled.
      * @return {@link ZhihuConfigurationBuilder} for fluent API.
@@ -262,3 +262,4 @@ public final class ZhihuConfigurationBuilder {
         return mSelectionSpec;
     }
 }
+

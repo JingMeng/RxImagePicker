@@ -1,8 +1,8 @@
 package com.qingmei2.rximagepicker.di;
 
 import android.app.Activity;
-import android.arch.lifecycle.Lifecycle;
-import android.support.v4.app.FragmentActivity;
+import androidx.lifecycle.Lifecycle;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.core.IImagePickerProcessor;
 import com.qingmei2.rximagepicker.core.ImagePickerConfigProcessor;
@@ -97,3 +97,4 @@ public final class RxImagePickerModule {
         return new RxImagePickerSchedulers();
     }
 }
+

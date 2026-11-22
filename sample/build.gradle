@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.qingmei2.sample'
     compileSdkVersion rootProject.ext.android["compileSdkVersion"]
 
     defaultConfig {
@@ -37,3 +38,5 @@ dependencies {
 
     testImplementation rootProject.ext.dependencies["junit"]
 }
+
+

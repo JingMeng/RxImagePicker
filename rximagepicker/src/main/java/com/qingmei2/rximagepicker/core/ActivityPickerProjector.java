@@ -3,7 +3,7 @@ package com.qingmei2.rximagepicker.core;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.ui.ICustomPickerConfiguration;
 import com.qingmei2.rximagepicker.ui.ICustomPickerView;
@@ -77,3 +77,4 @@ public final class ActivityPickerProjector implements ICustomPickerView {
         resetSubject();
     }
 }
+

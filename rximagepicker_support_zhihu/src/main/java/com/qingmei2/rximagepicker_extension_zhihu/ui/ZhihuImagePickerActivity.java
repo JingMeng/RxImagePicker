@@ -1,9 +1,9 @@
-package com.qingmei2.rximagepicker_extension_zhihu.ui;
+﻿package com.qingmei2.rximagepicker_extension_zhihu.ui;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.qingmei2.rximagepicker.core.ActivityPickerProjector;
 import com.qingmei2.rximagepicker_extension.entity.SelectionSpec;
@@ -63,3 +63,4 @@ public class ZhihuImagePickerActivity extends AppCompatActivity {
     }
 
 }
+

@@ -1,8 +1,8 @@
 package com.qingmei2.rximagepicker.core;
 
 import android.app.Activity;
-import android.support.annotation.IdRes;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.IdRes;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.entity.CustomPickConfigurations;
 import com.qingmei2.rximagepicker.ui.ICustomPickerConfiguration;
@@ -54,3 +54,4 @@ public final class ImagePickerProjector {
     }
 
 }
+

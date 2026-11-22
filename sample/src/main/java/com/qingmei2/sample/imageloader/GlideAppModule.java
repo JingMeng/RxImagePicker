@@ -1,7 +1,7 @@
-package com.qingmei2.sample.imageloader;
+﻿package com.qingmei2.sample.imageloader;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.GlideBuilder;
@@ -27,7 +27,7 @@ import com.qingmei2.rximagepicker.core.RxImagePicker;
 public class GlideAppModule extends AppGlideModule {
 
     /**
-     * Using the @GlideModule annotation requires a dependency on Glide’s annotations:
+     * Using the @GlideModule annotation requires a dependency on Glide鈥檚 annotations:
      */
     @Override
     public void registerComponents(Context context, Glide glide, Registry registry) {
@@ -73,3 +73,4 @@ public class GlideAppModule extends AppGlideModule {
     }
 
 }
+

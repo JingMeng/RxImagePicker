@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,7 @@
 package com.qingmei2.rximagepicker_extension.ui.widget;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 public class MediaGridInset extends RecyclerView.ItemDecoration {
@@ -58,3 +58,4 @@ public class MediaGridInset extends RecyclerView.ItemDecoration {
         }
     }
 }
+

@@ -1,9 +1,9 @@
 package com.qingmei2.rximagepicker.core;
 
 import android.app.Activity;
-import android.support.annotation.VisibleForTesting;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.VisibleForTesting;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.delegate.ProxyProviders;
 import com.qingmei2.rximagepicker.ui.DefaultImagePicker;
@@ -139,3 +139,4 @@ public class RxImagePicker {
         }
     }
 }
+

@@ -1,6 +1,6 @@
 package com.qingmei2.rximagepicker.delegate;
 
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.core.IImagePickerProcessor;
 import com.qingmei2.rximagepicker.core.ImagePickerConfigProvider;
@@ -72,3 +72,4 @@ public final class ProxyProviders implements InvocationHandler {
         }).blockingFirst();
     }
 }
+

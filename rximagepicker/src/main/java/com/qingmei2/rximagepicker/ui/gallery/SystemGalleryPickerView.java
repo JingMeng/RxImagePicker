@@ -3,10 +3,10 @@ package com.qingmei2.rximagepicker.ui.gallery;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.support.annotation.IdRes;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.annotation.IdRes;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.qingmei2.rximagepicker.ui.BaseSystemPickerView;
 import com.qingmei2.rximagepicker.ui.ICustomPickerConfiguration;
@@ -64,3 +64,4 @@ public final class SystemGalleryPickerView extends BaseSystemPickerView implemen
     }
 
 }
+

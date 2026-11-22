@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2014 nohana, Inc.
  * Copyright 2017 Zhihu Inc.
  *
@@ -19,10 +19,10 @@ package com.qingmei2.rximagepicker_extension.model;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.LoaderManager;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
+import androidx.loader.app.LoaderManager;
 import android.support.v4.content.Loader;
 
 import com.qingmei2.rximagepicker_extension.entity.Album;
@@ -103,3 +103,4 @@ public class AlbumMediaCollection implements LoaderManager.LoaderCallbacks<Curso
         void onAlbumMediaReset();
     }
 }
+

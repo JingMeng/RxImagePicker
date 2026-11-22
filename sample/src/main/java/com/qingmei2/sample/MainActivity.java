@@ -1,9 +1,9 @@
-package com.qingmei2.sample;
+﻿package com.qingmei2.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 
 import com.qingmei2.sample.system.SystemActivity;
@@ -31,3 +31,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+

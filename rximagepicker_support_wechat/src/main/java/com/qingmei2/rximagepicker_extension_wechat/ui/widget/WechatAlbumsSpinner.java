@@ -1,7 +1,7 @@
-package com.qingmei2.rximagepicker_extension_wechat.ui.widget;
+﻿package com.qingmei2.rximagepicker_extension_wechat.ui.widget;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v7.widget.ListPopupWindow;
 import android.view.View;
 import android.widget.AdapterView;
@@ -27,3 +27,4 @@ public class WechatAlbumsSpinner extends AlbumsSpinner {
         });
     }
 }
+

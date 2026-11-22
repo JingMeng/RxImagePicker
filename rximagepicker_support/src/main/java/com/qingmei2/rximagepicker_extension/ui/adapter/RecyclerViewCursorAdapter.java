@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,7 @@ package com.qingmei2.rximagepicker_extension.ui.adapter;
 
 import android.database.Cursor;
 import android.provider.MediaStore;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class RecyclerViewCursorAdapter<VH extends RecyclerView.ViewHolder> extends
         RecyclerView.Adapter<VH> {
@@ -103,3 +103,4 @@ public abstract class RecyclerViewCursorAdapter<VH extends RecyclerView.ViewHold
         return cursor != null && !cursor.isClosed();
     }
 }
+

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +15,9 @@
  */
 package com.qingmei2.rximagepicker_extension.ui.adapter;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import com.qingmei2.rximagepicker_extension.entity.Item;
@@ -68,3 +68,4 @@ public class PreviewPagerAdapter extends FragmentPagerAdapter {
     }
 
 }
+

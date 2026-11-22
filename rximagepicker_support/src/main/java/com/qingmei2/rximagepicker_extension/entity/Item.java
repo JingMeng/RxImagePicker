@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2014 nohana, Inc.
  * Copyright 2017 Zhihu Inc.
  *
@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.provider.MediaStore;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.qingmei2.rximagepicker_extension.MimeType;
 
@@ -157,3 +157,4 @@ public class Item implements Parcelable {
         return result;
     }
 }
+

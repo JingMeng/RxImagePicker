@@ -1,8 +1,8 @@
 package com.qingmei2.rximagepicker.delegate;
 
 import android.app.Activity;
-import android.support.annotation.VisibleForTesting;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.VisibleForTesting;
+import androidx.fragment.app.FragmentActivity;
 
 import com.qingmei2.rximagepicker.entity.observeras.AsBitmap;
 import com.qingmei2.rximagepicker.entity.observeras.AsFile;
@@ -180,3 +180,4 @@ public final class ProxyTranslator {
             return pickerView;
     }
 }
+

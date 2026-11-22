@@ -1,12 +1,12 @@
-package com.qingmei2.sample.zhihu;
+﻿package com.qingmei2.sample.zhihu;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -111,7 +111,7 @@ public class ZhihuActivity extends AppCompatActivity {
     }
 
     /**
-     * 日间主题的知乎图片选择界面
+     * 鏃ラ棿涓婚鐨勭煡涔庡浘鐗囬€夋嫨鐣岄潰
      */
     private void openGalleryAsNormal() {
         rxImagePicker.openGalleryAsNormal()
@@ -120,7 +120,7 @@ public class ZhihuActivity extends AppCompatActivity {
     }
 
     /**
-     * 夜间主题的知乎图片选择界面
+     * 澶滈棿涓婚鐨勭煡涔庡浘鐗囬€夋嫨鐣岄潰
      */
     private void openGalleryAsDracula() {
         rxImagePicker.openGalleryAsDracula()
@@ -133,3 +133,4 @@ public class ZhihuActivity extends AppCompatActivity {
         Toast.makeText(this, "Failed: " + error.toString(), Toast.LENGTH_SHORT).show();
     }
 }
+

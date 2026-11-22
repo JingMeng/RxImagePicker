@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,7 @@
 package com.qingmei2.rximagepicker_extension.ui.widget;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -36,3 +36,4 @@ public class PreviewViewPager extends ViewPager {
         return super.canScroll(v, checkV, dx, x, y);
     }
 }
+

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2017 Zhihu Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,8 +24,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.FileProvider;
+import androidx.fragment.app.Fragment;
+import androidx.core.content.FileProvider;
 import android.support.v4.os.EnvironmentCompat;
 
 import com.qingmei2.rximagepicker_extension.entity.CaptureStrategy;
@@ -137,3 +137,4 @@ public class MediaStoreCompat {
         return mCurrentPhotoPath;
     }
 }
+
